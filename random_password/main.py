@@ -10,7 +10,7 @@ def generatePassword(length):
     password = ''.join(random.choice(characters) for i in range(length))
     return password
     
-length = 5
+length = 12
 
 print(f"The generated password is {generatePassword(length)}")
 
